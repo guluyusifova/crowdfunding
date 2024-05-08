@@ -3,12 +3,12 @@
   <div class="totalFunding">Total Funding: ${{ totalRaised }}</div>
   <div class="mainpart">
     <box
-      @myEvent="totalFunding"
       v-for="bx in boxdata"
       :projectnum="bx.projectnum"
       :projectgoal="bx.projectgoal"
       :amountraised="bx.amountraised"
       :remainingamount="bx.remainingamount"
+      @myEvent="totalFunding"
     />
   </div>
 </template>
