@@ -39,7 +39,7 @@ export default {
     border: 1px solid blue;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
-    width: 300px;
+    <!-- width: 300px; -->
     margin: 10px;
     text-align: center;
     
